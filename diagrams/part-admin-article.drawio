@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="SpBHd3DXqQrXSPF325Yg">
+    <mxGraphModel dx="1030" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\n\nactor \&quot;Administrator\&quot; as Admin\n\nusecase \&quot;Review article\&quot; as UC_Review\nusecase \&quot;View pending article list\&quot; as UC_ViewList\nusecase \&quot;Accept article\&quot; as UC_Accept\nusecase \&quot;Reject article\&quot; as UC_Reject\nusecase \&quot;Note rejection reason\&quot; as UC_Reason\n\nAdmin --&gt; UC_Review\n\nUC_Review ..&gt; UC_ViewList : &lt;&lt;include&gt;&gt;\nUC_Accept .up.&gt; UC_Review : &lt;&lt;extend&gt;&gt;\nUC_Reject .up.&gt; UC_Review : &lt;&lt;extend&gt;&gt;\nUC_Reject ..&gt; UC_Reason : &lt;&lt;include&gt;&gt;\n\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="gLvKjXnGSxIcSrxjUp8M-18">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="actor_0" plantUmlBaseStyle="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" plantUmlBaseValue="" id="gLvKjXnGSxIcSrxjUp8M-19">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="60" width="40" x="99.5" y="81.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Administrator" plantUmlId="actorlbl_1" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Administrator" id="gLvKjXnGSxIcSrxjUp8M-20">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="17" width="99" x="70" y="152" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Review article" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Review article" id="gLvKjXnGSxIcSrxjUp8M-21">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="32" width="136" x="265.1" y="95.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View pending article list" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="View pending article list" id="gLvKjXnGSxIcSrxjUp8M-22">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="43" width="193" x="480.2" y="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Accept article" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Accept article" id="gLvKjXnGSxIcSrxjUp8M-23">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="31" width="133" x="169" y="240" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Reject article" plantUmlId="uc_5" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Reject article" id="gLvKjXnGSxIcSrxjUp8M-24">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="31" width="130" x="343.3" y="240" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Note rejection reason" plantUmlId="uc_6" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Note rejection reason" id="gLvKjXnGSxIcSrxjUp8M-25">
+          <mxCell parent="gLvKjXnGSxIcSrxjUp8M-18" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="40" width="174" x="489.7" y="160.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="gLvKjXnGSxIcSrxjUp8M-26">
+          <mxCell edge="1" parent="gLvKjXnGSxIcSrxjUp8M-18" source="gLvKjXnGSxIcSrxjUp8M-19" style="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="gLvKjXnGSxIcSrxjUp8M-21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="gLvKjXnGSxIcSrxjUp8M-27">
+          <mxCell edge="1" parent="gLvKjXnGSxIcSrxjUp8M-18" source="gLvKjXnGSxIcSrxjUp8M-21" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="gLvKjXnGSxIcSrxjUp8M-22">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="gLvKjXnGSxIcSrxjUp8M-28">
+          <mxCell edge="1" parent="gLvKjXnGSxIcSrxjUp8M-18" source="gLvKjXnGSxIcSrxjUp8M-23" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="gLvKjXnGSxIcSrxjUp8M-21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="gLvKjXnGSxIcSrxjUp8M-29">
+          <mxCell edge="1" parent="gLvKjXnGSxIcSrxjUp8M-18" source="gLvKjXnGSxIcSrxjUp8M-24" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="gLvKjXnGSxIcSrxjUp8M-21">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_11" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="gLvKjXnGSxIcSrxjUp8M-30">
+          <mxCell edge="1" parent="gLvKjXnGSxIcSrxjUp8M-18" source="gLvKjXnGSxIcSrxjUp8M-24" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="gLvKjXnGSxIcSrxjUp8M-25">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
