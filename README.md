@@ -16,8 +16,3 @@
 * `docs/`: Chứa các tài liệu phân tích, đặc tả Use Case và báo cáo (file .md, .docx, .pdf).
 * `diagrams/`: Chứa các file source vẽ sơ đồ (`.drawio`) của từng thành viên và bản tổng hợp cuối cùng (`usecase-main.drawio`).
 * `exports/`: Chứa các file hình ảnh tĩnh (PNG, SVG) được xuất ra từ bản vẽ tổng hợp để sử dụng cho báo cáo.
-
-## 4. Cách sử dụng (Cách xem sơ đồ)
-1. Tải ứng dụng **[diagrams.net (Draw.io)](https://app.diagrams.net/)** hoặc truy cập trực tiếp trên nền web.
-2. Tải file `usecase-main.drawio` trong thư mục `diagrams/` về máy.
-3. Mở file bằng diagrams.net để xem và chỉnh sửa toàn bộ cấu trúc Use Case.
